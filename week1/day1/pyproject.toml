@@ -8,3 +8,8 @@ dependencies = [
     "groq>=1.5.0",
     "python-dotenv>=1.2.2",
 ]
+
+[tool.uv.workspace]
+members = [
+    "day1",
+]

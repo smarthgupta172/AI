@@ -1,0 +1,17 @@
+[project]
+name = "day11"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "groq>=1.7.0",
+    "numpy>=2.4.6",
+    "python-dotenv>=1.2.3",
+    "sentence-transformers>=6.0.1",
+]
+
+[tool.uv.workspace]
+members = [
+    "embed_rag.py",
+]
